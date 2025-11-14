@@ -1,0 +1,169 @@
+
+.contact-section {
+    padding: 0 100px;
+    margin-bottom: 70px;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    margin-top: 40px;
+}
+.contact-info-box {
+    background-color: #0e0e0e;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #00ff66;
+    box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+}
+.info-title {
+    font-size: 1.8em;
+    color: #00ff66;
+    margin-top: 0;
+    border-bottom: 2px solid #163a33;
+    padding-bottom: 10px;
+}
+.info-text {
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+.contact-list li {
+    margin-bottom: 15px;
+    color: #f0f0f0;
+    font-family: 'Spartan', sans-serif;
+    letter-spacing: 0.5px;
+}
+.contact-list li strong {
+    color: #00ff66;
+    margin-right: 10px;
+}
+.contact-list a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.contact-list a:hover {
+    color: #00ff66;
+}
+.data-encrypted {
+    color: #ff3333;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.contact-form-box {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.narrative-title { 
+    font-size: 1.8em;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.mission-report-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.form-group {
+    flex: 1 1 45%; 
+    display: flex;
+    flex-direction: column;
+}
+.full-width {
+    flex: 1 1 100%;
+}
+.mission-report-form label {
+    color: #00ff66;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.mission-report-form input, 
+.mission-report-form select, 
+.mission-report-form textarea {
+    padding: 12px;
+    background-color: #0d0d0d;
+    border: 1px solid #333;
+    color: #f0f0f0;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Inter', sans-serif;
+}
+.mission-report-form input:focus, 
+.mission-report-form select:focus, 
+.mission-report-form textarea:focus {
+    border-color: #00ff66;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+    outline: none;
+}
+.mission-report-form select option[disabled] {
+    color: #777;
+}
+
+.submit-button {
+    flex: 1 1 100%;
+    padding: 15px 30px;
+    background-color: #ff3333; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.submit-button:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(255, 51, 51, 0.6);
+}
+.icon-arrow {
+    margin-left: 10px;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+@media (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    .contact-section {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 0 20px;
+    }
+    .form-group {
+        flex: 1 1 100%; 
+    }
+    .contact-info-box, .contact-form-box {
+        padding: 20px;
+    }
+    .submit-button {
+        font-size: 1em;
+        padding: 12px 20px;
+    }
+}

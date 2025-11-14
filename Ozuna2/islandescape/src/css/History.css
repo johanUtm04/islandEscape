@@ -1,0 +1,129 @@
+.history-section {
+    padding: 0 100px;
+    margin-bottom: 70px;
+}
+.dossier-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin-top: 40px;
+    background-color: #121212;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.terminal-log-box {
+    padding: 40px;
+    background-color: #0d0d0d;
+    border-right: 5px solid #00ff66; 
+    font-family: monospace;
+    color: #00ff66;
+    text-shadow: 0 0 5px rgba(0, 255, 102, 0.5); 
+    
+}
+.log-title {
+    font-size: 2em;
+    color: #ff3333; 
+    border-bottom: 3px solid #ff3333;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.log-entry {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.log-type {
+    font-size: 0.9em;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    text-shadow: none;
+}
+.log-value {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.download-dossier-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00ff66;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    margin-top: 40px;
+    font-family: 'Spartan', sans-serif;
+}
+.download-dossier-button:hover {
+    background-color: #00b34d;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 102, 0.7);
+}
+.narrative-box {
+    padding: 40px;
+    color: #f0f0f0;
+}
+.narrative-title {
+    font-size: 1.8em;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.narrative-text p {
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    color: #c0c0c0;
+    font-family: 'Oswald', sans-serif;
+}
+.narrative-text p:first-of-type {
+    font-weight: bold;
+    color: #f0f0f0;
+}
+.signature-line {
+    margin-top: 40px;
+    text-align: right;
+    border-top: 1px dashed #333;
+    padding-top: 10px;
+}
+.signature-text {
+    font-family: monospace;
+    color: #ff3333;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+/* --- RESPONSIVIDAD --- */
+@media (max-width: 1024px) {
+    .history-section {
+        padding: 0 50px;
+    }
+    .dossier-container {
+        grid-template-columns: 1fr;
+    }
+    .terminal-log-box {
+        border-right: none;
+        border-bottom: 5px solid #00ff66;
+    }
+}
+@media (max-width: 600px) {
+    .history-section {
+        padding: 0 20px;
+    }
+    .log-title {
+        font-size: 1.5em;
+    }
+    .narrative-title {
+        font-size: 1.5em;
+    }
+    .narrative-text p {
+        font-size: 1em;
+    }
+}
