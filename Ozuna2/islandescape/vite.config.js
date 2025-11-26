@@ -1,3 +1,5 @@
+// vite.config.js
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -57,6 +59,17 @@ export default defineConfig({
         enabled: true
       }
     })
-  ]
+  ],
+  
+  // 🚀 CONFIGURACIÓN DE VITEST PARA REACT/JSDOM 🚀
+  test: {
+    // Esto resuelve el error "ReferenceError: document is not defined"
+    environment: 'jsdom', 
+    
+    // Esto hace que las funciones de prueba (test, expect) no necesiten ser importadas en cada archivo
+    globals: true,
+    
+    // Este archivo se ejecuta una vez antes de todas las pruebas (ideal para importar @testing-library/jest-dom)
+    setupFiles: './src/setupTests.js', 
+  }
 });
- 
