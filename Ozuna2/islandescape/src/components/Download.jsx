@@ -55,9 +55,15 @@ function Download() {
                 Adéntrate en la intensa acción de Island Escape, un emocionante juego donde un comando de élite debe sobrevivir y escapar de una isla infestada de enemigos. Con armamento pesado y la jungla como tu única aliada, cada misión es un pulso por la supervivencia.
             </p>
             <div className="action-buttons-container">
-                <button className="discord-button">DESCARGAR AQUÍ (PC)</button>
-            </div>
-            
+    <a 
+        href="https://github.com/johanUtm04/Dead-Island-LandingPage/archive/refs/heads/main.zip" 
+        className="discord-button" 
+        download
+    >
+        DESCARGAR AQUÍ (PC)
+    </a>
+</div>
+
             <div className="section-divider">
                 <hr className="divider-line" />
                 <span className="divider-text">Guía Móvil (Apk) + tips de juego</span>

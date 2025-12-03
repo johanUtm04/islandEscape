@@ -8,9 +8,9 @@ const CHARACTERS_DATA =
 [
   { 
     id: 1, 
-    name: 'JOJO', 
+    name: 'Hunter', 
     imgSrc: charImage1, 
-    description: 'Un linaje de héroes con un destino bizarro, los Joestar se enfrentan a fuerzas oscuras a través de generaciones.',
+    description: 'Es un soldaod de operaciones especiales con un hitorial impecable en misiones imposibles.Entrenado desde joven en infliltración,supervivencia y combate en solitario.',
     details: [
       { label: 'Rango', value: 'Guerrero' }, 
       { label: 'Misiones', value: '10 victorias' }, 
@@ -19,9 +19,9 @@ const CHARACTERS_DATA =
   },
   { 
     id: 2, 
-    name: 'Aztaroths', 
+    name: 'Cobra', 
     imgSrc: charImage2, 
-    description: 'Malvados soldados alienígenas que tratan de acabar con JOJO. Son muy fuertes y suelen ir en grupo, será mejor no toparse con ellos.',
+    description: 'Forma parte del equipo Cobra la cual nació como una célula militar clandestina formada por antiguos mercenarios expulsados de diversas naciones; su objetivo principal es: crear un ejército independiente capaz de doblegar a las potencias mundiales.',
     details: [
       { label: 'Misión', value: 'Conquistar el mundo' }, 
       { label: 'Clase de enemigo', value: 'Malvado, agresivo' }, 
