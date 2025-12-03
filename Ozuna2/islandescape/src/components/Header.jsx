@@ -11,7 +11,7 @@ function Header() {
         <Link to="/descargar">Descargar</Link>        
         <Link to="/comunidad">Comunidad</Link>     
         <Link to="/contacto">Contacto</Link>        
-        <Link to="/acerca">Acerca de Nosotros</Link>        
+        <Link to="/acerca">Nosotros</Link>        
 
          </nav>
     </header>
