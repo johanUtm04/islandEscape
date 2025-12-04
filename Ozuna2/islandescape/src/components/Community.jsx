@@ -1,5 +1,5 @@
 import '../css/Community.css';
-import liveStreamGif from '../assets/live_stream_action.gif';
+import gameplayVideo from "../assets/gameplay.mp4"; 
 
 function Community() {
   
@@ -17,6 +17,7 @@ function Community() {
 
       <div className="community-grid">
 
+        {/* --- DISCORD WIDGET --- */}
         <div className="discord-widget-box">
           <h3 className="widget-title">Únete a la Base de Operaciones</h3>
           <p className="widget-subtitle">Conéctate con otros supervivientes y coordina tu próxima misión.</p>
@@ -30,48 +31,34 @@ function Community() {
           </button>
         </div>
 
-<div className="live-feed-box">
-<h3 className="widget-title live-title" style={{ color: "#92e78aff" }}>
-  🎮 Gameplay demostrativo de Island Escape
-</h3>
+        {/* --- LIVE GAMEPLAY BOX --- */}
+        <div className="live-feed-box">
+          <h3 className="widget-title live-title" style={{ color: "#92e78aff" }}>
+            🎮 Gameplay demostrativo de Island Escape
+          </h3>
+          
           <p className="widget-subtitle">¡Mira a los mejores jugadores en acción ahora mismo!</p>
 
           <div className="live-stream-placeholder">
-            <img src={liveStreamGif} alt="Acción en vivo de Island Escape" className="live-stream-gif" />
+            <video 
+              src={gameplayVideo}
+              className="live-stream-gif"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
           </div>
           
           <div className="streamer-info">
             <span className="live-indicator">LIVE</span>
-            <span className="streamer-name">Streamer: <a href="#streamer-link">GuerreroNeón</a></span>
+            <span className="streamer-name">
+              Streamer: <a href="#streamer-link">GuerreroNeón</a>
+            </span>
           </div>
         </div>
 
-      </div> 
-{/* 
-      <div className="leaderboard-container">
-        <h3 className="leaderboard-title">⚔️ Top 5: Eliminación de Aztaroths</h3>
-        
-        <table className="leaderboard-table">
-          <thead>
-            <tr>
-              <th>RANGO</th>
-              <th>NOMBRE</th>
-              <th>PUNTOS</th>
-              <th>KILLS</th>
-            </tr>
-          </thead>
-          <tbody>
-            {leaderBoardData.map((player) => (
-              <tr key={player.rank} className={player.rank === 1 ? 'top-player-row' : ''}>
-                <td className="rank">{player.rank}</td>
-                <td className="player-name">{player.name}</td>
-                <td className="score">{player.score.toLocaleString()}</td>
-                <td className="kills">{player.kills.toLocaleString()}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div> */}
+      </div>
 
     </section>
   );
