@@ -31,7 +31,9 @@ function Community() {
         </div>
 
 <div className="live-feed-box">
-          <h3 className="widget-title live-title">📡 Transmisión de Campo (EN VIVO)</h3>
+<h3 className="widget-title live-title" style={{ color: "#92e78aff" }}>
+  🎮 Gameplay demostrativo de Island Escape
+</h3>
           <p className="widget-subtitle">¡Mira a los mejores jugadores en acción ahora mismo!</p>
 
           <div className="live-stream-placeholder">
@@ -45,7 +47,7 @@ function Community() {
         </div>
 
       </div> 
-
+{/* 
       <div className="leaderboard-container">
         <h3 className="leaderboard-title">⚔️ Top 5: Eliminación de Aztaroths</h3>
         
@@ -69,7 +71,7 @@ function Community() {
             ))}
           </tbody>
         </table>
-      </div>
+      </div> */}
 
     </section>
   );

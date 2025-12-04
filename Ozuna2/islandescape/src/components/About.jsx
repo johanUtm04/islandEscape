@@ -7,17 +7,20 @@ function About() {
       
       <div className="about-content">
         <p>
-          En <strong>NexusTech</strong> somos un equipo apasionado por la innovación y el desarrollo de videojuegos de alta calidad. 
-          Nuestro objetivo es crear experiencias inmersivas que desafíen la imaginación y entretengan a jugadores de todo el mundo.
+          En <strong>NexusTech</strong> somos un equipo apasionado por la tecnología, la creatividad 
+          y el desarrollo de videojuegos de alta calidad. Nuestro propósito es construir experiencias 
+          inmersivas que conecten con los jugadores y los transporten a mundos llenos de aventura.
         </p>
 
         <p>
-          Nuestro equipo está compuesto por desarrolladores, diseñadores y creativos que trabajan en conjunto para ofrecer proyectos sólidos y emocionantes. 
-          Valoramos la dedicación, la creatividad y el compromiso con nuestros jugadores.
+          Cada uno de nuestros proyectos nace del trabajo conjunto entre desarrolladores, diseñadores 
+          y artistas que comparten la visión de crear universos únicos. Valoramos la innovación, la 
+          dedicación y la calidad en cada detalle.
         </p>
 
         <p>
-          Gracias por apoyarnos y formar parte de esta aventura. ¡En NexusTech siempre estamos listos para llevarte a nuevos mundos!
+          Gracias por acompañarnos en este camino. En NexusTech seguimos creciendo y creando nuevas 
+          experiencias para ti. ¡Lo mejor aún está por venir!
         </p>
       </div>
 
