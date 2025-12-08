@@ -75,10 +75,11 @@ function Download() {
           cada misión es un pulso por la supervivencia.
         </p>
 
+        {/* BOTÓN DESCARGA PC */}
         <div className="action-buttons-container">
           <a
             href="https://github.com/Axelg728/Island-Escape-Videojuego/archive/refs/heads/main.zip"
-            className="discord-button"
+            className="download-btn"
             download
           >
             DESCARGAR AQUÍ (PC)
@@ -134,10 +135,11 @@ function Download() {
           </div>
         </div>
 
+        {/* BOTÓN DESCARGA APK */}
         <div className="action-buttons-container">
           <a
             href="https://download938.mediafire.com/bmisgkp9f3qgk_3ZRACHrW1fznA2YZQdrjBPIW2XlHrFY_hWC9Nf1qrQjyT5e-WRj5Ayqk3jLzd1tgZJh4nbXzIKIS9ew-H_PDCSnN9G7bsMMWYeGmqngQIRCCTbML6ESy--OM0Xbgi5EQf1QoSGoyUZWAry4IdGHmjJIZ0VB1-Ugkc/zmjp0fpwk06jf8q/app-debug+%282%29.apk"
-            className="discord-button"
+            className="download-btn"
             download
           >
             DESCARGAR AQUÍ (APK)
