@@ -22,12 +22,12 @@ function Download() {
                     <div className="metadata-row">
                         <span className="metadata-label">Categorías:</span>
                         <span className="metadata-value metadata-links">
-                            Acción, Aventura, Supervivencia, Indie, Shooter
+                            Acción, Aventura, Supervivencia, Indie
                         </span>
                     </div>
                     <div className="metadata-row">
                         <span className="metadata-label">Etiquetas:</span>
-                        <span className="metadata-value metadata-links">Gratis, Juego Indie, Shooter</span>
+                        <span className="metadata-value metadata-links">Juego Indie y plataformero</span>
                     </div>
                     <div className="metadata-row">
                         <span className="metadata-label">Publicado por:</span>
@@ -39,7 +39,7 @@ function Download() {
                     </div>
                     <div className="metadata-row">
                         <span className="metadata-label">Fecha de subida:</span>
-                        <span className="metadata-value">Lunes, 28 Nov 2024</span>
+                        <span className="metadata-value">Lunes,8 Dic 2025</span>
                     </div>
                     <div className="metadata-row">
                         <span className="metadata-label">Versión:</span>
@@ -56,7 +56,7 @@ function Download() {
             </p>
             <div className="action-buttons-container">
     <a 
-        href="https://github.com/johanUtm04/Dead-Island-LandingPage/archive/refs/heads/main.zip" 
+        href="https://github.com/Axelg728/Island-Escape-Videojuego/archive/refs/heads/main.zip" 
         className="discord-button" 
         download
     >
@@ -89,7 +89,7 @@ function Download() {
                     </div>
                     <div className="metadata-row">
                         <span className="metadata-label">Requisitos:</span>
-                        <span className="metadata-value">4 GB RAM, Snapdragon 730+</span>
+                        <span className="metadata-value">Android 8 o superior</span>
                     </div>
                     
                     <h2 className="tips-title">Guía de Inicio Rápido y Tips</h2>
